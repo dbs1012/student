@@ -42,7 +42,10 @@ public class MainClass {
 					dao.allData();
 					break;
 				case 6:
-					
+					dao.save();
+					break;
+				case 7:
+					dao.load();
 					break;
 			}			
 		}	
